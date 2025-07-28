@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@source "../src/**/*.jsx";
+@source "../src/**/*.js";
+@source "../src/**/*.html";
+
+
