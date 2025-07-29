@@ -59,6 +59,7 @@ function CountryCard({ country }) {
         <img
           src={cityImage}
           alt="City background"
+          crossOrigin="anonymous"
           className="absolute inset-0 h-full w-full object-cover z-0"
           style={{ filter: "none", backdropFilter: "none" }}
         />
