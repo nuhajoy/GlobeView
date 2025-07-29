@@ -19,7 +19,7 @@ function CountryCard({ country }) {
           }
         );
         const data = await response.json();
-        const imageUrl = data.photos?.[0]?.src?.large2x || fallbackImage;
+        const imageUrl = data.photos?.[0]?.src?.large || fallbackImage;
         setCityImage(imageUrl);
       } catch (error) {
         console.error("Failed to fetch image from Pexels:", error);
